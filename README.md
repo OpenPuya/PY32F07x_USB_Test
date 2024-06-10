@@ -1,1 +1,7 @@
 # PY32F07x_USB_Test
+
+此仓库为PY32F07x的CherryUSB示例，相比SDK中自带的CherryUSB修改了port部分以适配新版API。
+
+修改后的port位于CherryUSB_Port文件夹。
+
+PY32的USB IP实际应为MUSB的魔改阉割版，去掉了很多寄存器
