@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,PY32F071xB</Define>
               <Undefine></Undefine>
-              <IncludePath>..\Inc;..\Firmware\Drivers\CMSIS\Include;..\Firmware\Drivers\CMSIS\Device\PY32F071\Include;..\Firmware\Drivers\PY32F071_HAL_Driver\Inc;..\CherryUSB\common;..\CherryUSB\class\cdc;..\CherryUSB\class\hid;..\CherryUSB\core;..\Firmware\Middlewares\Third_Party\CherryUSB\port;..\Firmware\Drivers\PY32F071_HAL_Driver\Inc</IncludePath>
+              <IncludePath>..\Inc;..\Firmware\Drivers\CMSIS\Include;..\Firmware\Drivers\CMSIS\Device\PY32F071\Include;..\Firmware\Drivers\PY32F071_HAL_Driver\Inc;..\CherryUSB\common;..\CherryUSB\class\cdc;..\CherryUSB\class\hid;..\CherryUSB\core;..\Firmware\Drivers\PY32F071_HAL_Driver\Inc;..\CherryUSB_Port</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -707,7 +707,7 @@
             <File>
               <FileName>usb_dc_py32.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Firmware\Middlewares\Third_Party\CherryUSB\port\usb_dc_py32.c</FilePath>
+              <FilePath>..\CherryUSB_Port\usb_dc_py32.c</FilePath>
             </File>
           </Files>
         </Group>

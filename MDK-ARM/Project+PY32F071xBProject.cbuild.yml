@@ -87,7 +87,7 @@ build:
     - ../CherryUSB/class/cdc
     - ../CherryUSB/class/hid
     - ../CherryUSB/core
-    - ../Firmware/Middlewares/Third_Party/CherryUSB/port
+    - ../CherryUSB_Port
     - RTE/_PY32F071xBProject
     - ${CMSIS_PACK_ROOT}/ARM/CMSIS/5.9.0/CMSIS/Core/Include
     - ${CMSIS_PACK_ROOT}/Puya/PY32F0xx_DFP/1.2.1/Drivers/CMSIS/Device/PY32F0xx/Include
@@ -256,7 +256,7 @@ build:
           category: sourceC
         - file: ../CherryUSB/class/hid/usbd_hid.c
           category: sourceC
-        - file: ../Firmware/Middlewares/Third_Party/CherryUSB/port/usb_dc_py32.c
+        - file: ../CherryUSB_Port/usb_dc_py32.c
           category: sourceC
   constructed-files:
     - file: RTE/_PY32F071xBProject/RTE_Components.h

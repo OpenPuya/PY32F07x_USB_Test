@@ -13,7 +13,7 @@ project:
         - ../CherryUSB/class/cdc
         - ../CherryUSB/class/hid
         - ../CherryUSB/core
-        - ../Firmware/Middlewares/Third_Party/CherryUSB/port
+        - ../CherryUSB_Port
       debug: "on"
       define:
         - USE_HAL_DRIVER
@@ -129,6 +129,6 @@ project:
         - file: ../CherryUSB/core/usbd_core.c
         - file: ../CherryUSB/class/cdc/usbd_cdc.c
         - file: ../CherryUSB/class/hid/usbd_hid.c
-        - file: ../Firmware/Middlewares/Third_Party/CherryUSB/port/usb_dc_py32.c
+        - file: ../CherryUSB_Port/usb_dc_py32.c
   components:
     - component: ARM::CMSIS:CORE
